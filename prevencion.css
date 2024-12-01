@@ -1,0 +1,63 @@
+.cuerpo_principal {
+    text-transform:none;
+    line-height: 30px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.titulos{
+    color:#e62e84;
+    font-size:40px;
+    line-height: 40px;
+}
+.viñeta{
+    list-style-type:square;
+}
+.prevencion{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 60px;
+}
+.prevencion_3{
+    width: 70%;
+    margin-left: 5%;
+    margin-right: 60px;
+}
+
+.viñeta li{
+    font-size: 26px;
+}
+.viñeta a{
+    text-decoration: none;
+}
+.viñeta a:hover{
+    color:rgb(238, 231, 231);
+    padding: 0 10px;
+    font-size: 30px;
+    background-color: #a05f68;
+    border-radius: 8px;
+}
+.soft_teo_img{
+    align-items: center;    
+    display: flex;
+    line-height: 30px;
+}
+
+@media(max-width:768px){
+    .hard_teo_img{
+        display: contents;
+    }
+    .soft_teo_img{
+        display: contents;
+    }
+    .hardware{
+        display:block;
+        margin:auto; 
+        width: 300px;
+    }
+    .software{
+        display:block;
+        margin:auto; 
+        width: 300px;
+    }
+}

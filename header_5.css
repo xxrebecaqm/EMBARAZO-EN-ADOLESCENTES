@@ -1,0 +1,19 @@
+.logo{
+background-image: url(IMAGENES_5/encabezado\ principal_5.jpg);
+height: 500px;
+background-position: center;
+background-size:cover;
+}
+@media(max-width:576px){
+    .logo{
+        background-image: url(IMAGENES/ENCABEZADO\ CEL.jpg);
+        height: 170px;
+        background-size:cover;
+    }
+    .menu-horizontal{
+        display: block;
+        margin-left: 10px;
+        margin-top: 170px;
+        background-color:rgba(0,0,0,.5);
+    }
+}
